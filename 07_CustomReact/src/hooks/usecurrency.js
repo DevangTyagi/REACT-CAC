@@ -7,7 +7,7 @@ function usecurrency(currency){
         .then((res) => res.json())
         .then((res) => setdata(res[currency]))
      },[currency])
-
+   console.log(data);
      return data
 }
 
